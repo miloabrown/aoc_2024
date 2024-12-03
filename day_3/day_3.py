@@ -8,7 +8,6 @@ from itertools import chain
 
 # Deal with input.
 with open("day_3/input.txt", "r") as file:
-    # regex to find all mul instructions Example: "mul(341,21) or mul(1,2)"
     input = file.read().strip()
 
 def part1():
