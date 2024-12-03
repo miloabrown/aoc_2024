@@ -18,7 +18,7 @@ SESSION_TOKEN=$(grep SESSION "${ENV_FILE}"| sed s/SESSION=//g)
 DAY=$1
 [ -z "${DAY}" ] && DAY=1
 YEAR=$2
-[ -z "${YEAR}" ] && YEAR=2023
+[ -z "${YEAR}" ] && YEAR=2024
 
 OUTPUT_DIR="day_${DAY}"
 OUTPUT_FILE="${OUTPUT_DIR}/input.txt"
