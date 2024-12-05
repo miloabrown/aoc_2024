@@ -1,6 +1,7 @@
 """
 Advent Of Code 2024
 Code written by Milo
+--- Day 2: Red-Nosed Reports ---
 """
 
 # Deal with input.
